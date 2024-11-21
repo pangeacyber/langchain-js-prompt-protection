@@ -8,17 +8,17 @@
     "exec": "tsimp index.ts"
   },
   "dependencies": {
+    "@dotenvx/dotenvx": "1.24.4",
+    "@langchain/core": "0.3.18",
+    "@langchain/openai": "0.3.14",
     "citty": "0.1.6",
     "consola": "3.2.3",
+    "langchain": "0.3.6",
     "pangea-node-sdk": "4.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@dotenvx/dotenvx": "1.24.2",
-    "@langchain/core": "0.3.18",
-    "@langchain/openai": "0.3.14",
     "@tsconfig/node22": "22.0.0",
-    "langchain": "0.3.6",
     "tsimp": "2.0.12",
     "typescript": "5.6.3",
     "ultracite": "4.1.7"

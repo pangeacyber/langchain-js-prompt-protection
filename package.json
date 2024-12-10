@@ -5,7 +5,10 @@
   "type": "module",
   "license": "MIT0",
   "scripts": {
-    "exec": "tsimp index.ts"
+    "exec": "tsimp index.ts",
+    "format": "biome format",
+    "lint": "biome lint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "1.24.4",

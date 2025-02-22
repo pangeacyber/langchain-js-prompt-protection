@@ -16,7 +16,7 @@
     "@langchain/openai": "0.4.4",
     "citty": "0.1.6",
     "consola": "3.4.0",
-    "langchain": "0.3.18",
+    "langchain": "0.3.19",
     "pangea-node-sdk": "4.4.0"
   },
   "devDependencies": {

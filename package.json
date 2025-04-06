@@ -24,6 +24,6 @@
     "@tsconfig/node22": "22.0.1",
     "tsimp": "2.0.12",
     "typescript": "5.8.2",
-    "ultracite": "4.2.0"
+    "ultracite": "4.2.1"
   }
 }

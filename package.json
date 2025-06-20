@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@dotenvx/dotenvx": "1.44.2",
-    "@langchain/core": "0.3.58",
+    "@langchain/core": "0.3.59",
     "@langchain/openai": "0.5.13",
     "citty": "0.1.6",
     "consola": "3.4.2",

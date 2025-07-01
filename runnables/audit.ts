@@ -8,7 +8,6 @@ export class PangeaAuditRunnable<
   RunInput extends BasePromptValueInterface,
 > extends Runnable<RunInput, RunInput> {
   static lc_name() {
-    // biome-ignore lint/nursery/noSecrets: false positive.
     return 'PangeaAuditRunnable';
   }
 

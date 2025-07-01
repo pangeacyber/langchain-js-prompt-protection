@@ -20,11 +20,11 @@
     "pangea-node-sdk": "5.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.6",
     "@tsconfig/node22": "22.0.2",
     "@types/node": "22.15.34",
     "tsimp": "2.0.12",
     "typescript": "5.8.3",
-    "ultracite": "4.2.13"
+    "ultracite": "5.0.26"
   }
 }

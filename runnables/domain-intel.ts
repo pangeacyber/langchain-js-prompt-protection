@@ -7,7 +7,6 @@ import { DomainIntelService, PangeaConfig } from 'pangea-node-sdk';
 export class MaliciousDomainsError extends Error {
   constructor(message: string) {
     super(message);
-    // biome-ignore lint/nursery/noSecrets: false positive.
     this.name = 'MaliciousDomainsError';
   }
 }
@@ -18,7 +17,6 @@ export class PangeaDomainIntelGuard<
   RunInput extends BasePromptValueInterface,
 > extends Runnable<RunInput, RunInput> {
   static lc_name() {
-    // biome-ignore lint/nursery/noSecrets: false positive.
     return 'PangeaDomainIntelGuard';
   }
 
@@ -47,7 +45,7 @@ export class PangeaDomainIntelGuard<
 
     // Find all domains in the text.
     const domains = text.match(DOMAIN_RE);
-    if (!domains || !domains.length) {
+    if (!domains?.length) {
       return input;
     }
 

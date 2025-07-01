@@ -7,7 +7,6 @@ import { IPIntelService, PangeaConfig } from 'pangea-node-sdk';
 export class MaliciousIpAddressesError extends Error {
   constructor(message: string) {
     super(message);
-    // biome-ignore lint/nursery/noSecrets: false positive.
     this.name = 'MaliciousIpAddressesError';
   }
 }
@@ -18,7 +17,6 @@ export class PangeaIpIntelGuard<
   RunInput extends BasePromptValueInterface,
 > extends Runnable<RunInput, RunInput> {
   static lc_name() {
-    // biome-ignore lint/nursery/noSecrets: false positive.
     return 'PangeaIpIntelGuard';
   }
 
@@ -47,7 +45,7 @@ export class PangeaIpIntelGuard<
 
     // Find all IP addresses in the text.
     const ipAddresses = text.match(IP_RE);
-    if (!ipAddresses || !ipAddresses.length) {
+    if (!ipAddresses?.length) {
       return input;
     }
 

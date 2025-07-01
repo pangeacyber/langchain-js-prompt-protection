@@ -7,7 +7,6 @@ import { PangeaConfig, URLIntelService } from 'pangea-node-sdk';
 export class MaliciousUrlsError extends Error {
   constructor(message: string) {
     super(message);
-    // biome-ignore lint/nursery/noSecrets: false positive.
     this.name = 'MaliciousUrlsError';
   }
 }
@@ -19,7 +18,6 @@ export class PangeaUrlIntelGuard<
   RunInput extends BasePromptValueInterface,
 > extends Runnable<RunInput, RunInput> {
   static lc_name() {
-    // biome-ignore lint/nursery/noSecrets: false positive.
     return 'PangeaUrlIntelGuard';
   }
 
@@ -48,7 +46,7 @@ export class PangeaUrlIntelGuard<
 
     // Find all URLs in the text.
     const ipAddresses = text.match(URL_RE);
-    if (!ipAddresses || !ipAddresses.length) {
+    if (!ipAddresses?.length) {
       return input;
     }
 

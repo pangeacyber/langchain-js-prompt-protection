@@ -22,7 +22,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
     "@tsconfig/node22": "22.0.2",
-    "@types/node": "22.15.34",
+    "@types/node": "22.16.2",
     "tsimp": "2.0.12",
     "typescript": "5.8.3",
     "ultracite": "5.0.32"

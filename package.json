@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "1.47.7",
+    "@dotenvx/dotenvx": "1.48.0",
     "@langchain/core": "0.3.65",
     "@langchain/openai": "0.6.2",
     "citty": "0.1.6",

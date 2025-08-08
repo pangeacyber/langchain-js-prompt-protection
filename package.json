@@ -20,7 +20,7 @@
     "pangea-node-sdk": "5.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.2",
+    "@biomejs/biome": "2.1.3",
     "@tsconfig/node22": "22.0.2",
     "@types/node": "22.16.5",
     "tsimp": "2.0.12",

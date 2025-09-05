@@ -23,8 +23,8 @@ export class PangeaUrlIntelGuard<
 
   lc_namespace = ['pangeacyber', 'runnables'];
 
-  private client;
-  private threshold: number;
+  private readonly client;
+  private readonly threshold: number;
 
   constructor(token: string, domain = 'aws.us.pangea.cloud', threshold = 70) {
     super();

@@ -13,7 +13,7 @@ export class PangeaAuditRunnable<
 
   lc_namespace = ['pangeacyber', 'runnables'];
 
-  private client;
+  private readonly client;
 
   constructor(
     token: string,

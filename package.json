@@ -25,6 +25,6 @@
     "@tsconfig/node22": "22.0.2",
     "@types/node": "22.18.7",
     "tsimp": "2.0.12",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }

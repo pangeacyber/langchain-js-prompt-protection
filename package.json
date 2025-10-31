@@ -23,7 +23,7 @@
     "@biomejs/biome": "2.2.7",
     "@kenan/biome-config": "1.0.5",
     "@tsconfig/node22": "22.0.2",
-    "@types/node": "24.9.1",
+    "@types/node": "24.9.2",
     "tsimp": "2.0.12",
     "typescript": "5.9.3"
   }
